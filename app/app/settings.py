@@ -25,7 +25,7 @@ SECRET_KEY = '!i#&v33fpcy=@hcp-gkomej+zw=+t2#2x40l*x#++z#m4bg!6i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["40.112.51.20"]
+ALLOWED_HOSTS = ["40.112.51.20","localhost"]
 
 
 # Application definition
@@ -82,7 +82,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': "RentCars",
-        'USER': "master",
+        'USER': "master_server",
         'PASSWORD': "47331213Wasd",
         'HOST': "40.112.51.20"
     }
