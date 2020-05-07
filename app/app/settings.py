@@ -25,7 +25,7 @@ SECRET_KEY = '!i#&v33fpcy=@hcp-gkomej+zw=+t2#2x40l*x#++z#m4bg!6i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["40.112.51.20"]
 
 
 # Application definition
